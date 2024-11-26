@@ -27,7 +27,9 @@ app.put("/completed",function(req , res){
 
     if(parsedPayload != success){
         res.status(411).json({
-            msg : "you sent the wrong inputss"
+            msg : "you sent the wrong inputs"
         })
+        return;
     }
+    
 })
