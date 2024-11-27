@@ -36,6 +36,9 @@ app.get("/todos",async function(req , res){
 
     });
 
+    res.json({
+        json
+    })
     
 })
 
