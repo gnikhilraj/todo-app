@@ -21,6 +21,7 @@ app.post("/todo", async function(req , res) {
 
             title : createPayload.title,
             description : createPayload.description,
+            completed : false
         }
     )
 
